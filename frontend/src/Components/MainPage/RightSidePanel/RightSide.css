@@ -1,60 +1,59 @@
-
-   .rightside_container {
-    width: 440px;
-    background-color: #EFF2F5;
-    border-radius: 10px;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-    padding: 20px;
-  }
-  
-  .rightside_header {
-    font-size: 20px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .rightside_content {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    color: #333;
-  }
-  
-  .member_wrapper {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .rounded_square {
-    width: 60px;
-    height: 60px;
-    border-radius: 10px;
-    object-fit: cover;
-  }
-  
-  .rightside_footer {
-    margin-top: 20px;
-    text-align: center;
-    color: #333;
-  }
-  
-  .join_button {
-    background-color: #bfbfbf; /* Mixed color */
-    color: black; /* Text color */
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.rightside_container {
+  width: 200px;
+  background-color: #eff2f5;
+  border-radius: 10px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  padding: 20px;
 }
 
-  .join_button:hover {
-      background-color: #a6a6a6; /* Darker shade on hover */
-  }
+.rightside_header {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
 
-  .username_txt{
-    font-weight: 500;
-  }
+.rightside_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #333;
+}
+
+.member_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rounded_square {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.rightside_footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.join_button {
+  background-color: #bfbfbf; /* Mixed color */
+  color: black; /* Text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.join_button:hover {
+  background-color: #a6a6a6; /* Darker shade on hover */
+}
+
+.username_txt {
+  font-weight: 500;
+}

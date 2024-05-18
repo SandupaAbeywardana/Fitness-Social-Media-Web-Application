@@ -1,166 +1,155 @@
-.upload_container{
-    height: 120px;
-    width: 600px;
-    border-radius: 20px !important;
+.upload_container {
+  height: 120px;
+  width: 620px;
+  border-radius: 20px !important;
+  padding: 10px;
 }
-.upload_top{
-    display: flex;
+.upload_top {
+  display: flex;
 }
-.upload_img{
-    margin-top: 15px;
-    margin-left: 15px;
-
+.upload_img {
+  margin-top: 15px;
+  margin-left: 15px;
 }
-.upload_box{
-    height: 40px;
-    width: 480px;
-    border: 0px;
-    background-color: #EFF2F5;
-    border-radius: 30px;
-    font-size: 16px;
-    padding-left: 20px;
-    margin: 15px;
-
-
+.upload_box {
+  height: 40px;
+  width: 480px;
+  border: 0px;
+  background-color: #eff2f5;
+  border-radius: 30px;
+  font-size: 16px;
+  padding-left: 20px;
+  margin: 15px;
 }
-.upload_bottom{
-    border-top: 1px solid #E3E6EA;
-    display: flex;
-    margin-left: 60px;
-    padding-top: 5px;
-
+.upload_bottom {
+  border-top: 1px solid #e3e6ea;
+  display: flex;
+  margin-left: 60px;
+  padding-top: 5px;
 }
-.upload_tabs{
-    width: 250px !important;
-    display: flex;
-
+.upload_tabs {
+  width: 250px !important;
+  display: flex;
 }
-.upload_text{
-    margin: 5px;
-
+.upload_text {
+  margin: 5px;
 }
 .upload_tabs > input {
-    display: none;
+  display: none;
 }
 
 .upload_header {
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
-    margin-top: 50px;
-    /* margin-bottom: 0px; */
-    
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+  /* margin-bottom: 0px; */
 }
-  
+
 .upload_tabs > input:checked + label {
-    background-color: #1877F2;
-    color: white;
+  background-color: #1877f2;
+  color: white;
 }
-  
+
 .upload_tabs > input:checked + label + div {
-    display: block;
+  display: block;
 }
-  
 
 .upload_textbox {
-    margin: 20px 40px;
-    height: 40px;
-    border: 0px;
-    border-radius: 10px;
-    margin-left: 10px;
-    font-size: 16px;
-    padding-left: 20px;
-    
+  margin: 20px 40px;
+  height: 40px;
+  border: 0px;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  padding-left: 20px;
 }
-  
+
 .upload_textbox:hover {
-    outline: none;
+  outline: none;
 }
-  
+
 .upload_textbox:focus {
-    outline: none;
+  outline: none;
 }
-  
+
 .upload_textbox::placeholder {
-    color: #B0B3B8;
+  color: #b0b3b8;
 }
-  
+
 .upload_textbox::-webkit-input-placeholder {
-    color: #B0B3B8;
+  color: #b0b3b8;
 }
-  
+
 .upload_textbox:-ms-input-placeholder {
 }
-  
+
 .upload_textbox:focus {
-    outline: none;
+  outline: none;
 }
-  
+
 .upload_textbox::placeholder {
-    color: #B0B3B8;
+  color: #b0b3b8;
 }
-  
+
 .upload_textbox::-webkit-input-placeholder {
-    color: #B0B3B8;
+  color: #b0b3b8;
 }
-  
+
 .upload_textbox:-ms-input-placeholder {
 }
-  
+
 .upload_preview {
-        padding: 0px 40px;
-        
+  padding: 0px 40px;
 }
-  
 
 .upload_button {
-        margin: 40px;
-        background-color: #1877F2;
-        color: white;
-        font-weight: 400;
-        border: 0px;
-        height: 40px;
-        border-radius: 20px;
-        font-size: 16px;
-        cursor: pointer;
+  margin: 40px;
+  background-color: #1877f2;
+  color: white;
+  font-weight: 400;
+  border: 0px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
-  
-.upload_button:hover {
-        background-color: #1256D1;
 
+.upload_button:hover {
+  background-color: #1256d1;
 }
-  
+
 .upload_button:focus {
-        outline: none;
+  outline: none;
 }
-  
+
 .upload_button:active {
-        background-color: #1256D1;
+  background-color: #1256d1;
 }
-  
+
 .upload_button:disabled {
-        background-color: #B0B3B8;
+  background-color: #b0b3b8;
 }
-  
-.upload_text1{
-        margin-left: -10px !important;
-        margin-top: -5px;
+
+.upload_text1 {
+  margin-left: -10px !important;
+  margin-top: -5px;
 }
 
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
 /* General Styles */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #f5f5f5;
   color: #333;
 }
 
 /* Select Styles */
 select {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   padding: 12px 16px;
   margin-bottom: 16px;
@@ -207,22 +196,22 @@ select:focus {
   }
 }
 
-.upload_fitnessgoal{
-    background-color: #ffead6;
-    color: #ff7f00;
+.upload_fitnessgoal {
+  background-color: #ffead6;
+  color: #ff7f00;
 }
 
-.upload_exercisedetails{
-    background-color: #e6f2ff;
-    color: #2c6dff;
+.upload_exercisedetails {
+  background-color: #e6f2ff;
+  color: #2c6dff;
 }
 
-.upload_restdays{
-    background-color: #e6e6ff;
-    color: #6600cc;
+.upload_restdays {
+  background-color: #e6e6ff;
+  color: #6600cc;
 }
 
-.upload_fitnesslevel{
-    background-color: #e6ffe6;
-    color: #00cc00;
+.upload_fitnesslevel {
+  background-color: #e6ffe6;
+  color: #00cc00;
 }

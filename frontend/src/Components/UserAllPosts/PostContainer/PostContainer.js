@@ -83,23 +83,13 @@ class PostContainer extends Component {
 
     return (
       <div className="post-container">
+        <div className="regular-posts">{regularPostComponents}</div>
 
-          <div className="regular-posts">
-          {regularPostComponents}
-          </div>
+        <div className="meal-posts">{mealPostComponents}</div>
 
-          <div className="meal-posts">
-          {mealPostComponents}
-          </div>
+        <div className="workout-status">{workoutstatusComponents}</div>
 
-          <div className="workout-status">
-          {workoutstatusComponents}
-          </div>
-        
-          <div className="workout-plans">
-          {workoutplansComponents}
-          </div>
-
+        <div className="workout-plans">{workoutplansComponents}</div>
       </div>
     );
   }

@@ -1,148 +1,129 @@
-.post_container{
-    width: 600px;
-    margin-top: 20px;
-    border-radius: 20px !important;
-   
+.post_container {
+  width: 600px;
+  margin-top: 20px;
+  border-radius: 20px !important;
+  padding: 20px;
 }
-.post_header_main{
-    display: flex;
-    height: 50px;
-    position: relative;
-}
-
-.post_header{
-    display: flex;
-
-    position: relative;
+.post_header_main {
+  display: flex;
+  height: 50px;
+  position: relative;
 }
 
+.post_header {
+  display: flex;
 
-.post-btns{
-    position: absolute;
-    top: 10px;
-    right: 30px;
-    display: flex;
-    flex-direction: row
-        ;
-        gap: 10px;
-        
+  position: relative;
 }
 
-.post-btns svg:hover{
-    font-size: 25px;
-    transition: 0.2s ease-in-out;
+.post-btns {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
 
-.post_header_image{
-    
-}
-.post_img{
-    margin: 15px;
-
-}
-.post_header_text{
-    font-weight: 500;
-    margin-top: 20px;
-    font-size: 16px;
-
-}
-.post_description{
-    display: flex;
-    margin-left: 15px;
-    margin-top: 10px;
-    font-size: 17px ;
-    font-weight: 400;
-}
-.post_image{
-    margin: 10px 0px;
-}
-.post_likecountContainer{
-    display: flex;
-    height: 40px;
-    border-bottom: 1px solid #CDDDD4;
-
-}
-.post_like{
-
-}
-.post_img{
-    height: 20px;
-
-}
-.post_likecount{
-    margin-top: 14px;
-    margin-left: -10px;
-    
-
-}
-.post_likeshare{
-    display: flex;
-    height: 35px;
-    margin-left: 100px;
-    margin-top: 7px;
-
-}
-.post_tab{
-display: flex;
-width: 200px;
-}
-.post_tabfirst{
-
-}
-.post_tabing{
-    width: 30px;
-
-}
-.post_tabtext{
-    margin: 5px;
-
-}
-.upload_comment{
-    border-top: 1px solid #CDDDD4;
+.post-btns svg:hover {
+  font-size: 25px;
+  transition: 0.2s ease-in-out;
 }
 
-.comment-box{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.post_header_image {
+}
+.post_img {
+  margin: 15px;
+}
+.post_header_text {
+  font-weight: 500;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.post_description {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 400;
+}
+.post_image {
+  margin: 10px 0px;
+}
+.post_likecountContainer {
+  display: flex;
+  height: 40px;
+  border-bottom: 1px solid #cdddd4;
+}
+.post_like {
+}
+.post_img {
+  height: 20px;
+}
+.post_likecount {
+  margin-top: 14px;
+  margin-left: -10px;
+}
+.post_likeshare {
+  display: flex;
+  height: 35px;
+  margin-left: 100px;
+  margin-top: 7px;
+}
+.post_tab {
+  display: flex;
+  width: 200px;
+}
+.post_tabfirst {
+}
+.post_tabing {
+  width: 30px;
+}
+.post_tabtext {
+  margin: 5px;
+}
+.upload_comment {
+  border-top: 1px solid #cdddd4;
 }
 
-.post_comment{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
-    
+.comment-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.post_comment img{
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    padding-top: 1px;
-    margin-left: 30px;
-    
+.post_comment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.comment_user{
-    font-weight: 600;
+
+.post_comment img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  padding-top: 1px;
+  margin-left: 30px;
+}
+.comment_user {
+  font-weight: 600;
 }
 .comment {
-    
-    margin-top: 40px;
-    font-size: 15px;
-    font-weight: 400;
-    color: #1b0f0f;
-    margin-left: -123px;
+  margin-top: 40px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #1b0f0f;
+  margin-left: -123px;
 }
 
-.post_buttons{
-    position: absolute;
-    margin-top: 20px;
-    right: 0;
-    margin-right: 15px;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
+.post_buttons {
+  position: absolute;
+  margin-top: 20px;
+  right: 0;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
 
 .updatebtn,
@@ -153,7 +134,7 @@ width: 200px;
   outline: none;
   padding: 0;
   margin: 0 5px;
-  transition: transform 0.3s ease;  
+  transition: transform 0.3s ease;
 }
 
 .updatebtn:hover,
@@ -167,13 +148,10 @@ width: 200px;
   height: 20px;
 }
 
-
 .updatebtn:hover,
 .deletebtn:hover {
   transform: scale(1.5);
 }
-
-
 
 .update_img {
   filter: drop-shadow(2px 2px 2px rgba(3, 134, 3, 0.4));
@@ -182,263 +160,243 @@ width: 200px;
 .delete_img {
   filter: drop-shadow(2px 2px 2px rgba(255, 0, 0, 0.4));
 }
- 
 
 .update-post-img {
-    display: block;
-    width: 300px;
-    margin-left: 10px;
-    margin-top: 20px;
-    padding: 0.75rem 1rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #333;
-    background-color: #f8f8f8;
-    border: 2px dashed #ccc;
-    border-radius: 0.5rem;
-    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  display: block;
+  width: 300px;
+  margin-left: 10px;
+  margin-top: 20px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f8f8f8;
+  border: 2px dashed #ccc;
+  border-radius: 0.5rem;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.update-post-img:focus {
+  outline: none;
+  border-color: #555;
+  box-shadow: 0 0 0 0.2rem rgba(85, 85, 85, 0.25);
+}
+
+.update-post-img::file-selector-button {
+  margin-right: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.update-post-img::file-selector-button:hover {
+  background-color: #555;
+  transform: translateY(-2px);
+}
+
+.update-post-img::file-selector-button:active {
+  background-color: #222;
+  transform: translateY(2px);
+}
+
+.update-post-img::file-selector-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(85, 85, 85, 0.5);
+}
+
+@media (max-width: 768px) {
+  .update-post-img {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
   }
-  
-  .update-post-img:focus {
-    outline: none;
-    border-color: #555;
-    box-shadow: 0 0 0 0.2rem rgba(85, 85, 85, 0.25);
-  }
-  
+
   .update-post-img::file-selector-button {
-    margin-right: 1rem;
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 1.5;
-    color: #fff;
-    background-color: #333;
-    border: none;
-    border-radius: 0.5rem;
-    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
   }
-  
-  .update-post-img::file-selector-button:hover {
-    background-color: #555;
-    transform: translateY(-2px);
-  }
-  
-  .update-post-img::file-selector-button:active {
-    background-color: #222;
-    transform: translateY(2px);
-  }
-  
-  .update-post-img::file-selector-button:focus {
-    outline: none;
-    box-shadow: 0 0 0 0.2rem rgba(85, 85, 85, 0.5);
-  }
-  
-  @media (max-width: 768px) {
-    .update-post-img {
-      font-size: 0.9rem;
-      padding: 0.5rem 0.75rem;
-    }
-  
-    .update-post-img::file-selector-button {
-      font-size: 0.9rem;
-      padding: 0.5rem 1rem;
-    }
-  }
-  
-    .post_mealpreferences,
-    .post_caloricgoals,
-    .post_mealTiming,
-    .post_portionSize,  
-    .post_healthGoals{
-        margin-bottom: 10px ;
-        margin-right: 20px; 
-        }
+}
 
+.post_mealpreferences,
+.post_caloricgoals,
+.post_mealTiming,
+.post_portionSize,
+.post_healthGoals {
+}
 
-    .post_content {
-        font-size: 16px;
-        font-family: fantasy;
-        color: #333;
-    }
+.post_content {
+  font-size: 16px;
+  color: #333;
+}
 
-    .mealplan_description {
-        width: 100%;
-        max-width: 500px; 
-        height: 100px;
-        background-color: white;
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 16px;
-        font-weight: bold;
-        font-style: italic;
-        color: #06045a;
+.mealplan_description {
+  width: 100%;
+  max-width: 500px;
+  height: 100px;
+  background-color: white;
+  font-size: 16px;
+  color: #06045a;
+}
 
-    }
+.post_workouttype,
+.post_workouttime,
+.post_burncalories,
+.post_topic {
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
 
-    .post_workouttype,
-    .post_workouttime,
-    .post_burncalories,
-    .post_topic {
-    margin-bottom: 10px;
-    margin-right: 20px; 
-    }
+.post_content {
+  font-size: 16px;
+  font-family: fantasy;
+  color: #333;
+}
 
-    .post_content {
-    font-size: 16px;
-    font-family: fantasy;
-    color: #333;
-    }
+.workoutstatus_description {
+  width: 100%;
+  max-width: 500px;
+  height: 100px;
+  background-color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  color: #06045a;
+}
 
-    .workoutstatus_description {
-    width: 100%; 
-    max-width: 500px;
-    height: 100px;
-    background-color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
-    font-weight: bold;
-    font-style: italic;
-    color: #06045a;
-    }
+.post_head_topic {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1b0f0f;
+  font-family: "Courier New", Courier, monospace;
+}
 
-    .post_head_topic{
-        font-size: 20px;
-        font-weight: 600;
-        color: #1b0f0f;
-        font-family: 'Courier New', Courier, monospace;
-        
-    }
+.post_fitnessgoal,
+.post_exercisedetails,
+.post_restdays,
+.post_fitnesslevel {
+  margin-bottom: 10px;
+  margin-right: 20px; /* Adjust as needed */
+}
 
-    .post_fitnessgoal,
-    .post_exercisedetails,
-    .post_restdays,
-    .post_fitnesslevel {
-    margin-bottom: 10px;
-    margin-right: 20px; /* Adjust as needed */
-    }
+.post_content {
+  font-size: 16px;
+  font-family: fantasy;
+  color: #333;
+}
 
-    .post_content {
-    font-size: 16px;
-    font-family: fantasy;
-    color: #333;
-    }
+.workoutplanpost_description {
+  width: 100%; /* Adjust width as needed */
+  max-width: 500px; /* Limit maximum width for larger screens */
+  height: 100px;
+  background-color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  color: #06045a;
+}
+.update_post_description {
+  width: 500px;
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  box-shadow: #b80303 0px 0px 10px;
+}
 
-    .workoutplanpost_description {
-    width: 100%; /* Adjust width as needed */
-    max-width: 500px; /* Limit maximum width for larger screens */
-    height: 100px;
-    background-color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
-    font-weight: bold;
-    font-style: italic;
-    color: #06045a;
-    }
-    .update_post_description {
-        width:500px;
-        height: 50px; 
-        padding: 10px;
-        font-size: 16px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        resize: vertical; 
-        box-shadow: #b80303 0px 0px 10px;
-      }
-      
-      .update-post-img {
-        margin-top: 10px; 
-        font-size: 16px;
-        padding: 8px 12px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        background-color: #f9f9f9;
-        cursor: pointer;
-        display: inline-block;
-        box-shadow: #0e53d4 0px 0px 10px;
-      }
-      
-    
-      .update-post-img:hover {
-        background-color: #e9e9e9;
-      }
-      
-      .update-post-img:active {
-        background-color: #d9d9d9;
-      }
-      
-      .upload_mealpreferences_edit_mode,
-        .upload_caloricgoals_edit_mode,
-        .post_mealTiming_edit_mode,
-        .post_portionSize_edit_mode,
-        .post_healthGoals_edit_mode {
-        margin-bottom: 15px;
-        }
+.update-post-img {
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: #0e53d4 0px 0px 10px;
+}
 
-        
-        div[class$="_edit_mode"] {
-        display: inline-block;
-        margin-right: 10px;
-        }
+.update-post-img:hover {
+  background-color: #e9e9e9;
+}
 
-        .post_mealTiming_input{
-            background-color: #e6ffe6;
-        color: #00cc00;
-        }
+.update-post-img:active {
+  background-color: #d9d9d9;
+}
 
-        .post_portionSize_input{
-            background-color: #e6e6ff;
-        color: #6600cc;
-        }
+.upload_mealpreferences_edit_mode,
+.upload_caloricgoals_edit_mode,
+.post_mealTiming_edit_mode,
+.post_portionSize_edit_mode,
+.post_healthGoals_edit_mode {
+  margin-bottom: 15px;
+}
 
-        .post_healthGoals_input{
-            background-color: #ffdfe6;
-            color: #ff4d94;
-        }
+div[class$="_edit_mode"] {
+  display: inline-block;
+  margin-right: 10px;
+}
 
-        .post_description_textarea{
-            width: 550px;
-        }
+.post_mealTiming_input {
+  background-color: #e6ffe6;
+  color: #00cc00;
+}
 
-        .upload_workouttype_input{
-            background-color: #d5f6d8; 
-        }
-        .post_topic_edit_mode,
-        .post_burncalories_edit_mode,
-        .post_workouttime_edit_mode {
-         margin-bottom: 10px;
+.post_portionSize_input {
+  background-color: #e6e6ff;
+  color: #6600cc;
+}
 
-        }
+.post_healthGoals_input {
+  background-color: #ffdfe6;
+  color: #ff4d94;
+}
 
-        .post_topic_input,
-        .post_burncalories_input,
-        .post_workouttime_input {
-            width: 100%;
-            padding: 8px;
-            font-size: 16px;
-            border: 2px solid #ccc;
-            border-radius: 10px;
-            box-sizing: border-box;
-            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
+.post_description_textarea {
+  width: 550px;
+}
 
-        .post_topic_input:focus,
-        .post_burncalories_input:focus,
-        .post_workouttime_input:focus {
-            outline: none;
-            border-color: #d63a3a;
-            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-            transition: border-color 1s ease, box-shadow 0.3s ease;
-        }
+.upload_workouttype_input {
+  background-color: #d5f6d8;
+}
+.post_topic_edit_mode,
+.post_burncalories_edit_mode,
+.post_workouttime_edit_mode {
+  margin-bottom: 10px;
+}
 
-        .upload_fitnesslevel,
-        .upload_restdays,
-        .upload_exercisedetails,
-        .upload_fitnessgoal{
-           
-            margin-left: 20px;
-            
-        }
-        
+.post_topic_input,
+.post_burncalories_input,
+.post_workouttime_input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
 
+.post_topic_input:focus,
+.post_burncalories_input:focus,
+.post_workouttime_input:focus {
+  outline: none;
+  border-color: #d63a3a;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  transition: border-color 1s ease, box-shadow 0.3s ease;
+}
 
-
-
+.upload_fitnesslevel,
+.upload_restdays,
+.upload_exercisedetails,
+.upload_fitnessgoal {
+  margin-left: 20px;
+}

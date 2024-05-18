@@ -1,4 +1,3 @@
-
 import React, { Component } from "react";
 import "./RightSide.css";
 
@@ -14,16 +13,16 @@ class RightSide extends Component {
   // Fetching data
   getData = () => {
     fetch("http://localhost:8080/api/userService/getUserDetails")
-      .then(response => {
+      .then((response) => {
         if (!response.ok) {
-          throw new Error('Network response was not ok');
+          throw new Error("Network response was not ok");
         }
         return response.json();
       })
-      .then(json =>{
+      .then((json) => {
         this.setState({ data: json, error: null });
       })
-      .catch(error => {
+      .catch((error) => {
         console.error("Error fetching data:", error);
         this.setState({ error: error.message });
       });
@@ -40,7 +39,7 @@ class RightSide extends Component {
     return (
       <div className="rightside_container">
         {/* Customized header */}
-        <div className="rightside_header">Meet Our HealthHub Community</div>
+        <div className="rightside_header">Meet Our FitCon Community</div>
         {/* Rendering member list or error */}
         <div className="rightside_content">
           {error ? (
@@ -48,7 +47,7 @@ class RightSide extends Component {
           ) : (
             data.map((item, index) => (
               <div className="member_wrapper" key={index}>
-                <img className="rounded_square" src={item.userImage}  />
+                <img className="rounded_square" src={item.userImage} />
                 <div className="username_txt">{item.userName}</div>
                 <p>{item.text}</p>
               </div>
@@ -58,7 +57,7 @@ class RightSide extends Component {
         {/* Customized footer */}
         <div className="rightside_footer">
           <p>Join our vibrant community today!</p>
-          <button className="join_button">Join HealthHub</button>
+          <button className="join_button">Join FitCon</button>
         </div>
       </div>
     );

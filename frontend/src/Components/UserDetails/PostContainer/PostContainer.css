@@ -1,12 +1,9 @@
-
-
-  .user-details-container {
+.user-details-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-
-} 
+}
 
 .user-details-card {
   background-color: #fff;

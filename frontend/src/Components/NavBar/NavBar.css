@@ -1,110 +1,102 @@
 .navbar_main {
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    padding: 5px;
-    height: 70px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    border-bottom: 2px solid #dbdbdb;
-  }
-  
-  .navbar_logo {
-    margin: 6px 10px 8px 16px;
-  }
-  
-  .navbar_leftbar {
-    display: flex;
-  }
-  
-  .navbar_search {
-    height: 40px;
-    width: 200px;
-    border-radius: 25px;
-    border: 0px;
-    background-color: #EFF2F5;
-    font-size: 16px;
-    padding-left: 30px;
-    margin-top: 10px;
-  }
-  
-  .navbar_container {
-    display: flex;
-    margin-top: 10px;
-    margin: 15px;
-    margin-left: -95px;
-  }
-  
-  .navbar_tabs {
-    width: 200px;
-    height: 60px;
-    transition: all 0.3s ease;
-  }
-  
-  .navbar_tabs.active {
-    border-bottom: 4px solid #007BFF;
-    color: #007BFF;
-  }
-  
-  .navbar_tabs.active a {
-    color: #007BFF;
-  }
-  
-  .navbar_tabs:hover {
-    /* transform: translateY(-10px); */
-    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
-  }
-  
-  
-  
-  .navbar_righttab {
-    display: flex;
-    margin-left: 40px;
-  }
-  
-  .navbar_rightimg {
-    margin-top: 15px;
-    margin-right: 10px;
-    max-width: 50px;
-    max-height: 50px;
-  }
-  
-  .navbar_profilename {
-    margin-top: 20px;
-    font-weight: 600;
-    color: black;
-    font-size: 16px;
-  }
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 5px;
+  height: 70px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #dbdbdb;
+}
 
-  .navbar_tabs a {
-    border-bottom: 2px solid transparent; /* Add this line */
-  }
-  
-  .navbar_tabs a:hover {
-    border-bottom: 2px solid black; /* Add this line */
-    
-  }
+.navbar_leftbar {
+  display: flex;
+}
 
-  .sign-out-btn{
-    
-    width: 30px;
-    height: 30px;
-    margin-left: 10px;
-    margin-top: 13px;
-    cursor: pointer;
-  }
+.navbar_search {
+  height: 40px;
+  width: 300px;
+  border-radius: 25px;
+  border: 0px;
+  background-color: #eff2f5;
+  font-size: 16px;
+  padding-left: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
 
-  .sign-out-btn:hover{
-    width: 38px;
-    transition: 0.2s ease-in-out;
-    color: rgb(143, 52, 52);
-    
-  }
+.navbar_container {
+  display: flex;
+  margin-top: 10px;
+  margin: 15px;
+  margin-left: -95px;
+}
 
-  .post-btns svg:hover{
-    font-size: 25px;
-    transition: 0.2s ease-in-out;
+.navbar_tabs {
+  width: 200px;
+  height: 60px;
+  transition: all 0.3s ease;
+}
+
+.navbar_tabs.active {
+  border-bottom: 4px solid #007bff;
+  color: #007bff;
+}
+
+.navbar_tabs.active a {
+  color: #007bff;
+}
+
+.navbar_tabs:hover {
+  /* transform: translateY(-10px); */
+  /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.navbar_righttab {
+  display: flex;
+  margin-left: 40px;
+}
+
+.navbar_rightimg {
+  margin-top: 15px;
+  margin-right: 10px;
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.navbar_profilename {
+  margin-top: 20px;
+  font-weight: 600;
+  color: black;
+  font-size: 16px;
+}
+
+.navbar_tabs a {
+  border-bottom: 2px solid transparent; /* Add this line */
+}
+
+/* .navbar_tabs a:hover {
+  border-bottom: 2px solid black;
+} */
+
+.sign-out-btn {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 13px;
+  cursor: pointer;
+}
+
+.sign-out-btn:hover {
+  width: 38px;
+  transition: 0.2s ease-in-out;
+  color: rgb(143, 52, 52);
+}
+
+.post-btns svg:hover {
+  font-size: 25px;
+  transition: 0.2s ease-in-out;
 }

@@ -1,19 +1,17 @@
-import firebase from 'firebase/compat/app';
-import 'firebase/compat/auth';
-import 'firebase/compat/firestore';
+import firebase from "firebase/compat/app";
+import "firebase/compat/auth";
+import "firebase/compat/firestore";
 
-
-
-var firebaseConfig = {
-  apiKey: "AIzaSyC7AZXcCLy3z6eBgpMrxEzKj_YcZxDDFlU",
-  authDomain: "healthhub-eab8d.firebaseapp.com",
-  projectId: "healthhub-eab8d",
-  storageBucket: "healthhub-eab8d.appspot.com",
-  messagingSenderId: "390340029523",
-  appId: "1:390340029523:web:154c248dbc7a1fe7822aa6",
-  measurementId: "G-Y0FD5ZVJX9"
+const firebaseConfig = {
+  apiKey: "AIzaSyBJsIi27cN8wtteqnS5JT3HwEit7iCwAQM",
+  authDomain: "fitcon-paf.firebaseapp.com",
+  projectId: "fitcon-paf",
+  storageBucket: "fitcon-paf.appspot.com",
+  messagingSenderId: "461461682731",
+  appId: "1:461461682731:web:498be7f94ea7ffb3cc486e",
 };
+
 // Initialize Firebases
- firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 
 export default firebase;

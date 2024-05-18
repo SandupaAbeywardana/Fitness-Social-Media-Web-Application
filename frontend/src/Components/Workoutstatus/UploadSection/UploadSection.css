@@ -1,317 +1,296 @@
-.upload_container{
-    height: 120px;
-    width: 600px;
-    border-radius: 20px !important;
+.upload_container {
+  height: 120px;
+  width: 620px;
+  border-radius: 20px !important;
 }
-.upload_top{
-    display: flex;
+.upload_top {
+  display: flex;
 }
-.upload_img{
-    margin-top: 15px;
-    margin-left: 15px;
-
+.upload_img {
+  margin-top: 15px;
+  margin-left: 15px;
 }
-.upload_box{
-    height: 40px;
-    width: 480px;
-    border: 0px;
-    background-color: #EFF2F5;
-    border-radius: 30px;
-    font-size: 16px;
-    padding-left: 20px;
-    margin: 15px;
-
-
+.upload_box {
+  height: 40px;
+  width: 480px;
+  border: 0px;
+  background-color: #eff2f5;
+  border-radius: 30px;
+  font-size: 16px;
+  padding-left: 20px;
+  margin: 15px;
 }
-.upload_bottom{
-    border-top: 1px solid #E3E6EA;
-    display: flex;
-    margin-left: 60px;
-    padding-top: 5px;
-
+.upload_bottom {
+  border-top: 1px solid #e3e6ea;
+  display: flex;
+  margin-left: 60px;
+  padding-top: 5px;
 }
-.upload_tabs{
-    width: 150px;
-    display: flex;
-
+.upload_tabs {
+  width: 150px;
+  display: flex;
 }
-.upload_text{
-    margin: 5px;
-
+.upload_text {
+  margin: 5px;
 }
 .upload_tabs > input {
-    display: none;
+  display: none;
 }
 
 .upload_header {
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
-    margin-top: 50px;
-    /* margin-bottom: 0px; */
-    
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+  /* margin-bottom: 0px; */
 }
-  
+
 .upload_tabs > input:checked + label {
-    background-color: #1877F2;
-    color: white;
+  background-color: #1877f2;
+  color: white;
 }
-  
+
 .upload_tabs > input:checked + label + div {
-    display: block;
+  display: block;
 }
-  
 
 .upload_textbox {
-    margin: 20px 40px;
-    height: 40px;
-    border: 0px;
-    border-radius: 10px;
-    margin-left: 10px;
-    font-size: 16px;
-    padding-left: 20px;
-    
+  margin: 20px 40px;
+  height: 40px;
+  border: 0px;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  padding-left: 20px;
 }
-  
+
 .upload_textbox:hover {
-    outline: none;
+  outline: none;
 }
-  
+
 .upload_textbox:focus {
-    outline: none;
+  outline: none;
 }
-  
+
 .upload_textbox::placeholder {
-    color: #B0B3B8;
+  color: #b0b3b8;
 }
-  
+
 .upload_textbox::-webkit-input-placeholder {
-    color: #B0B3B8;
+  color: #b0b3b8;
 }
-  
+
 .upload_textbox:-ms-input-placeholder {
 }
-  
+
 .upload_textbox:focus {
-    outline: none;
+  outline: none;
 }
-  
+
 .upload_textbox::placeholder {
-    color: #B0B3B8;
+  color: #b0b3b8;
 }
-  
+
 .upload_textbox::-webkit-input-placeholder {
-    color: #B0B3B8;
+  color: #b0b3b8;
 }
-  
+
 .upload_textbox:-ms-input-placeholder {
 }
-  
+
 .upload_preview {
-        padding: 0px 40px;
-        
+  padding: 0px 40px;
 }
-  
 
 .upload_button {
-        margin: 40px;
-        background-color: #1877F2;
-        color: white;
-        font-weight: 400;
-        border: 0px;
-        height: 40px;
-        border-radius: 20px;
-        font-size: 16px;
-        cursor: pointer;
+  margin: 40px;
+  background-color: #1877f2;
+  color: white;
+  font-weight: 400;
+  border: 0px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
-  
+
 .upload_button:hover {
-        background-color: #1256D1;
-
+  background-color: #1256d1;
 }
-  
+
 .upload_button:focus {
-        outline: none;
+  outline: none;
 }
-  
+
 .upload_button:active {
-        background-color: #1256D1;
+  background-color: #1256d1;
 }
-  
+
 .upload_button:disabled {
-        background-color: #B0B3B8;
+  background-color: #b0b3b8;
 }
-
-
-
-
-
 
 /* General styles */
-.upload_text1
-{
-    padding: 10px 15px;
-    border-radius: 25px;
-    border: none;
-    margin-bottom: 15px;
-    font-size: 16px;
-    transition: box-shadow 0.3s ease;
+.upload_text1 {
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: none;
+  margin-bottom: 15px;
+  font-size: 16px;
+  transition: box-shadow 0.3s ease;
+}
+
+/* Placeholder styles */
+input[type="text"]::placeholder {
+  color: #999;
+  font-style: italic;
+  transition: color 0.3s ease;
+}
+
+input[type="text"]:focus::placeholder {
+  color: #ccc;
+}
+
+/* Input focus styles */
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Background colors for different inputs */
+input[placeholder="Your Age"] {
+  background-color: #fff2e6;
+}
+
+input[placeholder="Your Weight"] {
+  background-color: #e6f7ff;
+}
+
+input[placeholder="Your Height"] {
+  background-color: #e6ffeb;
+}
+
+input[placeholder="Your Workout Type"] {
+  background-color: #f5e6ff;
+}
+
+/* Description input styles */
+input.upload_description {
+  width: 100%;
+  height: 150px;
+  resize: vertical;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  font-family: inherit;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+input.upload_description:focus {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Icons or labels for inputs */
+input[placeholder="Your Age"]::before {
+  content: "🎂 ";
+}
+
+input[placeholder="Your Weight"]::before {
+  content: "⚖️ ";
+}
+
+input[placeholder="Your Height"]::before {
+  content: "📏 ";
+}
+
+input[placeholder="Your Workout Type"]::before {
+  content: "🏋️‍♀️ ";
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  input[type="text"] {
+    font-size: 14px;
   }
-  
-  /* Placeholder styles */
-  input[type="text"]::placeholder {
-    color: #999;
-    font-style: italic;
-    transition: color 0.3s ease;
-  }
-  
-  input[type="text"]:focus::placeholder {
-    color: #ccc;
-  }
-  
-  /* Input focus styles */
-  input[type="text"]:focus {
-    outline: none;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Background colors for different inputs */
-  input[placeholder="Your Age"] {
-    background-color: #fff2e6;
-  }
-  
-  input[placeholder="Your Weight"] {
-    background-color: #e6f7ff;
-  }
-  
-  input[placeholder="Your Height"] {
-    background-color: #e6ffeb;
-  }
-  
-  input[placeholder="Your Workout Type"] {
-    background-color: #f5e6ff;
-  }
-  
-  /* Description input styles */
+
   input.upload_description {
-    width: 100%;
-    height: 150px;
-    resize: vertical;
-    padding: 15px;
-    border-radius: 15px;
-    border: none;
-    font-family: inherit;
-    font-size: 16px;
-    background-color: #f9f9f9;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
+    font-size: 14px;
+    height: 120px;
   }
-  
-  input.upload_description:focus {
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 480px) {
+  input[type="text"] {
+    padding: 8px 12px;
+    font-size: 12px;
   }
-  
-  /* Icons or labels for inputs */
-  input[placeholder="Your Age"]::before {
-    content: "🎂 ";
+
+  input.upload_description {
+    font-size: 12px;
+    height: 100px;
+    padding: 10px;
   }
-  
-  input[placeholder="Your Weight"]::before {
-    content: "⚖️ ";
-  }
-  
-  input[placeholder="Your Height"]::before {
-    content: "📏 ";
-  }
-  
-  input[placeholder="Your Workout Type"]::before {
-    content: "🏋️‍♀️ ";
-  }
-  
-  /* Media queries for responsiveness */
-  @media (max-width: 768px) {
-    input[type="text"] {
-      font-size: 14px;
-    }
-  
-    input.upload_description {
-      font-size: 14px;
-      height: 120px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    input[type="text"] {
-      padding: 8px 12px;
-      font-size: 12px;
-    }
-  
-    input.upload_description {
-      font-size: 12px;
-      height: 100px;
-      padding: 10px;
-    }
-  }
-  
-  
+}
 
 .upload_topic,
 .upload_burn,
 .upload_workouttype,
 .upload_description {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #e0e0e0; 
-    border-radius: 5px;
-    font-size: 16px;
-    box-sizing: border-box;
-    background-color: #f9f9f9; 
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
 }
 
 .upload_topic::placeholder,
 .upload_burn::placeholder,
 .upload_workouttype::placeholder,
 .upload_description::placeholder {
-    color: #b0b0b0; 
+  color: #b0b0b0;
 }
 
 .upload_topic:focus,
 .upload_burn:focus,
 .upload_workouttype:focus,
 .upload_description:focus {
-    outline: none;
-    border-color: #007bff;
+  outline: none;
+  border-color: #007bff;
 }
 
 .upload_workouttype {
-    width: calc(100% - 2px); 
+  width: calc(100% - 2px);
 }
 
 .upload_workouttype option {
-    font-size: 16px;
-    color: #555; 
+  font-size: 16px;
+  color: #555;
 }
 
 .upload_workouttype:focus option {
-    background-color: #f0f0f0; 
+  background-color: #f0f0f0;
 }
 
-
 .upload_topic {
-    background-color: #eaf6ff; 
+  background-color: #eaf6ff;
 }
 
 .upload_burn {
-    background-color: #ffedd8;
+  background-color: #ffedd8;
 }
 
 .upload_workouttype,
 .upload_workouttype option {
-    background-color: #d5f6d8; 
+  background-color: #d5f6d8;
 }
 
 .upload_description {
-    background-color: #fdf3d7; 
+  background-color: #fdf3d7;
 }
